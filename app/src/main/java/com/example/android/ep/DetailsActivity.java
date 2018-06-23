@@ -20,7 +20,7 @@ public class DetailsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_details);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Details");
+        actionBar.setTitle("EpInfo");
 
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
