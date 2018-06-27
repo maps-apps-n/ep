@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">ep</string>
+    <string name="app_name">EpInfo</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="description">This is a description</string>
+    <string name="alert_update">EpInfo Alert Update</string>
+    <string name="alert_desc"> There are risks for the following areas:
+     West Nile Virus activity in California, North Dakota, South Dakota, Alabama.</string>
+    <string name="title">Title</string>
+
+
 </resources>
