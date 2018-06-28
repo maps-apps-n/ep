@@ -30,4 +30,7 @@ http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
     <dimen name="textSize">22sp</dimen>
     <dimen name="textSize2">20sp</dimen>
     <dimen name="padding_bottom">10dp</dimen>
+    <dimen name="padding_left">12dp</dimen>
+    <dimen name="widget_dimen">250dp</dimen>
+
 </resources>

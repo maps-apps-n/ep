@@ -3,10 +3,10 @@
     xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:cardBackgroundColor="#fff"
-    app:cardCornerRadius="3dp"
-    app:cardElevation="3dp"
-    app:contentPadding="5dp"
+    app:cardBackgroundColor="@color/BackgroundColor"
+    app:cardCornerRadius="@dimen/appcard"
+    app:cardElevation="@dimen/appcard"
+    app:contentPadding="@dimen/appcard_pad"
     app:cardUseCompatPadding="true">
 
     <LinearLayout
@@ -16,22 +16,22 @@
         <TextView
             android:id="@+id/rTitleTv"
             android:text="Title"
-            android:textColor="#000"
-            android:paddingBottom="10dp"
-            android:textSize="22sp"
+            android:textColor="@color/textColor"
+            android:paddingBottom="@dimen/padding_bottom"
+            android:textSize="@dimen/textSize"
             android:textStyle="bold"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
         <ImageView
             android:id="@+id/rImageView"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="@dimen/layout_height"
             android:scaleType="centerCrop"
             android:adjustViewBounds="true" />
         <TextView
             android:id="@+id/rDescriptionTv"
-            android:text="This is a description"
-            android:textSize="20sp"
+            android:text="@string/description"
+            android:textSize="@dimen/textSize2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:maxLines="1"/>
